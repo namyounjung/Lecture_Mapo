@@ -154,9 +154,55 @@ main.face4 {
 #vidGallery article .con {
     display: none;
 }
-
-
-
+/* contact */
+#contact article{
+    padding-top: 10vh;
+    width: 70vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#contact input[type=text]{
+    width: 25;
+    height: 35px;
+    border: 1px solid #888;
+    background: transparent;
+    padding-left: 10px;
+    transition: 0.5s;
+}
+#contact input[type=text]:focus {
+    background: #444;
+}
+#contact input[type=email]{
+    width: 55%;
+    height: 35px;
+    border: 1px solid #888;
+    background: transparent;
+    padding-left: 10px;
+    transition: 0.5s;
+}
+#contact input[type=email]:focus {
+    background: #444;
+}
+#contact textarea{
+    width: 100%;
+    height: 90px;
+    border: 1px solid #888;
+    background: transparent;
+    padding-top: 10px;
+    padding-left: 20px;
+    resize: none;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+#contact textarea:focus {
+    background: #444;
+}
+#contact input[type=submit]{
+    width: 95%;
+    height: 30px;
+    border: 1px solid #888;
+}
 /* mobile */
 @media screen and (max-width: 739px){
     body {
@@ -186,6 +232,18 @@ main.face4 {
     }
     #vidGallery article a {
         height: 9vh;
+    }
+    #contact input[type=text]{
+        width: 100%;
+        margin-top: 5px;
+    }
+    #contact input[type=email]{
+        width: 100%;
+        margin-top: 5px;
+    }
+    #contact textarea{
+        width: 100%;
+        margin-top: 5px;
     }
 }
 
