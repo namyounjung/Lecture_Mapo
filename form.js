@@ -1,6 +1,6 @@
 (function(){
     //발급받은 user_id값 인수로 전달
-    emailjs.init("");
+    emailjs.init("user_QZDArhfsfykN86l1jCrE2");
 })();
 
 window.onload = function() {
@@ -14,7 +14,7 @@ window.onload = function() {
 
 
         emailjs
-            .sendForm('', '', this) //serviceID, templateID입력
+            .sendForm('service_iedenpa', 'template_qih8jap', this) //serviceID, templateID입력
             .then(
                 function(response) {
                     console.log('메일 발송 성공', response.status, response.text); 
