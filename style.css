@@ -68,7 +68,7 @@ main section {
     justify-content: space-between;
     align-content: flex-end; 
     font-size: 5vw;
-    color: #aaa;
+    color: rgb(225, 225, 225);
     background: #333; 
     opacity: 0.3;  
     z-index: 0;
