@@ -29,6 +29,7 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    color: #fff;
     padding: 3vw;
 }
 header h1 {
@@ -36,6 +37,7 @@ header h1 {
     padding: 2vh 3vw;
 }
 header ul {
+    color: #fff;
     display: flex;
 }
 header ul li {
